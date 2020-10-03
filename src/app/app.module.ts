@@ -3,14 +3,14 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { VillaComponent } from './villa/villa.component';
-import { AccountsComponent } from './accounts/accounts.component';
+import { MainComponent } from './main/main.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    VillaComponent,
-    AccountsComponent
+    MainComponent,
+
   ],
   imports: [
     BrowserModule
